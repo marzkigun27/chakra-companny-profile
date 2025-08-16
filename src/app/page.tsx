@@ -164,36 +164,38 @@ export default function HomePage() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
-            <div>
-              <h3 className="text-2xl font-bold mb-6 text-foreground">Our Story</h3>
-              <p className="text-muted-foreground mb-4">
-                Chakra was born from witnessing the growing waste crisis in urban communities and the disconnect between
-                people and sustainable practices. Our founders recognized that traditional waste management was
-                reactive, not proactive.
-              </p>
-              <p className="text-muted-foreground">
-                We envisioned a world where technology could bridge this gap, making waste management intelligent,
-                rewarding, and community-driven. The name "Chakra" represents our core philosophy: the circular flow of
-                resources where nothing truly ends as waste.
-              </p>
-            </div>
+          <div>
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Our Story</h3>
+            <p className="text-muted-foreground mb-4">
+              {`Chakra was born from witnessing the growing waste crisis in urban communities and the disconnect between
+              people and sustainable practices. Our founders recognized that traditional waste management was
+              reactive, not proactive.`}
+            </p>
+            <p className="text-muted-foreground">
+              {`We envisioned a world where technology could bridge this gap, making waste management intelligent,
+              rewarding, and community-driven. The name "Chakra" represents our core philosophy: the circular flow of
+              resources where nothing truly ends as waste.`}
+            </p>
+          </div>
 
-            <div>
-              <h3 className="text-2xl font-bold mb-6 text-foreground">Vision & Mission</h3>
-              <div className="space-y-4">
-                <div className="p-4 bg-primary/5 rounded-lg border-l-4 border-primary">
-                  <h4 className="font-semibold text-foreground mb-2">Vision</h4>
-                  <p className="text-muted-foreground">"To inspire sustainable living through technology."</p>
-                </div>
-                <div className="p-4 bg-secondary/5 rounded-lg border-l-4 border-secondary">
-                  <h4 className="font-semibold text-foreground mb-2">Mission</h4>
-                  <p className="text-muted-foreground">
-                    "To help people dispose of waste responsibly, while making it rewarding and engaging."
-                  </p>
-                </div>
+          <div>
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Vision & Mission</h3>
+            <div className="space-y-4">
+              <div className="p-4 bg-primary/5 rounded-lg border-l-4 border-primary">
+                <h4 className="font-semibold text-foreground mb-2">Vision</h4>
+                <p className="text-muted-foreground">
+                  {`"To inspire sustainable living through technology."`}
+                </p>
+              </div>
+              <div className="p-4 bg-secondary/5 rounded-lg border-l-4 border-secondary">
+                <h4 className="font-semibold text-foreground mb-2">Mission</h4>
+                <p className="text-muted-foreground">
+                  {`"To help people dispose of waste responsibly, while making it rewarding and engaging."`}
+                </p>
               </div>
             </div>
           </div>
+        </div>
 
           {/* Core Values */}
           <div className="mb-16">
@@ -292,7 +294,9 @@ export default function HomePage() {
                 <QrCode className="w-8 h-8 text-secondary" />
               </div>
               <h4 className="font-semibold text-foreground mb-2">2. Scan QR Code</h4>
-              <p className="text-sm text-muted-foreground">Use the Chakra mobile app to scan the bin's QR code</p>
+              <p className="text-sm text-muted-foreground">
+                {`Use the Chakra mobile app to scan the bin's QR code`}
+              </p>
             </div>
 
             <ArrowRight className="w-6 h-6 text-muted-foreground mx-auto hidden md:block" />
@@ -471,10 +475,10 @@ export default function HomePage() {
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="border-border bg-card">
                 <CardContent className="pt-6">
-                  <p className="text-muted-foreground mb-4">
-                    "Chakra has transformed how our community thinks about waste. The app makes recycling fun and
-                    rewarding!"
-                  </p>
+                <p className="text-muted-foreground mb-4">
+                  {`"Chakra has transformed how our community thinks about waste. The app makes recycling fun and rewarding!"`}
+                </p>
+
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                       <Users className="w-5 h-5 text-primary" />
@@ -489,10 +493,9 @@ export default function HomePage() {
 
               <Card className="border-border bg-card">
                 <CardContent className="pt-6">
-                  <p className="text-muted-foreground mb-4">
-                    "The smart bins have reduced our collection costs by 30% while improving recycling rates
-                    significantly."
-                  </p>
+                <p className="text-muted-foreground mb-4">
+                  {`"The smart bins have reduced our collection costs by 30% while improving recycling rates significantly."`}
+                </p>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-secondary/10 rounded-full flex items-center justify-center">
                       <BarChart3 className="w-5 h-5 text-secondary" />
@@ -507,10 +510,9 @@ export default function HomePage() {
 
               <Card className="border-border bg-card">
                 <CardContent className="pt-6">
-                  <p className="text-muted-foreground mb-4">
-                    "My kids love competing with neighbors on the app. It's made environmental education so much
-                    easier."
-                  </p>
+                <p className="text-muted-foreground mb-4">
+                  {`"My kids love competing with neighbors on the app. It's made environmental education so much easier."`}
+                </p>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
                       <Leaf className="w-5 h-5 text-accent" />
@@ -533,7 +535,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">Contact Us</h2>
             <p className="text-lg text-muted-foreground">
-              Ready to transform your community's approach to waste management? Let's start the conversation.
+              {`Ready to transform your community's approach to waste management? Let's start the conversation.`}
             </p>
           </div>
 
